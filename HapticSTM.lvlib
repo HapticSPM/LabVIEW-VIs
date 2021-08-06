@@ -25,6 +25,7 @@
 	<Item Name="pnz.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/pnz.vi"/>
 	<Item Name="shutdown.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/shutdown.vi"/>
 	<Item Name="start.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/start.vi"/>
+	<Item Name="threshhold.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/threshhold.vi"/>
 	<Item Name="velx.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/velx.vi"/>
 	<Item Name="vely.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/vely.vi"/>
 	<Item Name="velz.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/velz.vi"/>
