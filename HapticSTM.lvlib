@@ -29,6 +29,7 @@
 	<Item Name="velx.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/velx.vi"/>
 	<Item Name="vely.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/vely.vi"/>
 	<Item Name="velz.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/velz.vi"/>
+	<Item Name="yconsttest.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/yconsttest.vi"/>
 	<Item Name="yforcetestnodrag.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/yforcetestnodrag.vi"/>
 	<Item Name="yrescale.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/yrescale.vi"/>
 	<Item Name="zlimit.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/zlimit.vi"/>
