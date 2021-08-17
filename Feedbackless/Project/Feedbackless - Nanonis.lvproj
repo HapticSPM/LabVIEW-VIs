@@ -20,6 +20,7 @@
 		<Item Name="Input_FBL.vi" Type="VI" URL="../../SubVIs/Input_FBL.vi"/>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+		<Item Name="NanonisProperties_FBL.vi" Type="VI" URL="../../SubVIs/NanonisProperties_FBL.vi"/>
 		<Item Name="PlaneFit_FBL.vi" Type="VI" URL="../../SubVIs/PlaneFit_FBL.vi"/>
 		<Item Name="Position_FBL.vi" Type="VI" URL="../../SubVIs/Position_FBL.vi"/>
 		<Item Name="StartStop_FBL.vi" Type="VI" URL="../../SubVIs/StartStop_FBL.vi"/>
