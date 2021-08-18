@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Angles_flt.vi" Type="VI" URL="../../SubVIs/Angles_flt.vi"/>
+		<Item Name="Calibration.exe" Type="Document" URL="../../Calibration.exe"/>
 		<Item Name="Calibration_flt.vi" Type="VI" URL="../../SubVIs/Calibration_flt.vi"/>
 		<Item Name="CurrentInput_flt.vi" Type="VI" URL="../../SubVIs/CurrentInput_flt.vi"/>
 		<Item Name="CurrentOutput_flt.vi" Type="VI" URL="../../SubVIs/CurrentOutput_flt.vi"/>
@@ -22,6 +23,7 @@
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 		<Item Name="PlaneFit_flt.vi" Type="VI" URL="../../SubVIs/PlaneFit_flt.vi"/>
+		<Item Name="PlungeMap_flt.vi" Type="VI" URL="../../SubVIs/PlungeMap_flt.vi"/>
 		<Item Name="Position_flt.vi" Type="VI" URL="../../SubVIs/Position_flt.vi"/>
 		<Item Name="StartStop_flt.vi" Type="VI" URL="../../SubVIs/StartStop_flt.vi"/>
 		<Item Name="Velocity_flt.vi" Type="VI" URL="../../SubVIs/Velocity_flt.vi"/>
