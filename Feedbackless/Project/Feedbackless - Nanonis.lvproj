@@ -195,6 +195,7 @@
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
 			<Item Name="AutoApproach_FBL.vi" Type="VI" URL="../../SubVIs/AutoApproach_FBL.vi"/>
+			<Item Name="Calibration_FBL.vi" Type="VI" URL="../../SubVIs/Calibration_FBL.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Angles_flt.vi" Type="VI" URL="../../SubVIs/Angles_flt.vi"/>
+		<Item Name="Calibration_flt.vi" Type="VI" URL="../../SubVIs/Calibration_flt.vi"/>
 		<Item Name="CurrentInput_flt.vi" Type="VI" URL="../../SubVIs/CurrentInput_flt.vi"/>
 		<Item Name="CurrentOutput_flt.vi" Type="VI" URL="../../SubVIs/CurrentOutput_flt.vi"/>
 		<Item Name="Forces_flt.vi" Type="VI" URL="../../SubVIs/Forces_flt.vi"/>
