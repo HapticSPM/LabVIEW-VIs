@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -27,6 +27,9 @@
 		<Item Name="Velocity_FBL.vi" Type="VI" URL="../../SubVIs/Velocity_FBL.vi"/>
 		<Item Name="Yscaling_FBL.vi" Type="VI" URL="../../SubVIs/Yscaling_FBL.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
+			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
 				<Item Name="_user.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/_user.vi"/>
@@ -42,6 +45,7 @@
 				<Item Name="Draw Pattern Layer.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Draw Pattern Layer.vi"/>
 				<Item Name="Draw Scan Frame Outline.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Draw Scan Frame Outline.vi"/>
 				<Item Name="Feenstra type spectroscopy.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Feenstra type spectroscopy.vi"/>
+				<Item Name="FolMe Speed Get.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Scan/Follow Me/FolMe Speed Get.vi"/>
 				<Item Name="Force-Distance curve with offset compensation.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Force-Distance curve with offset compensation.vi"/>
 				<Item Name="GenericSweep - Multiple sweeps.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/GenericSweep - Multiple sweeps.vi"/>
 				<Item Name="Get XY points from image.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Get XY points from image.vi"/>
@@ -57,10 +61,14 @@
 				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
 				<Item Name="ncAFM Amplitude Calibration.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ncAFM Amplitude Calibration.vi"/>
 				<Item Name="Point Shoot Example - MultipleSpectro.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on Point &amp; Shoot/Point Shoot Example - MultipleSpectro.vi"/>
+				<Item Name="Prog Interface - OpenAppRef with methods.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/_Private VIs/Prog Interface - OpenAppRef with methods.vi"/>
 				<Item Name="READ ME - External VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/READ ME - External VI.vi"/>
+				<Item Name="ScanFrame Get.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Scan/ScanFrame Get.vi"/>
 				<Item Name="ScanMonitor.PI.Multiple.Generate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ScanMonitor.PI.Multiple.Generate.vi"/>
 				<Item Name="ScanMonitor.PI.Template.vit" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ScanMonitor.PI.Template.vit"/>
 				<Item Name="Scans at different Bias.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Scans at different Bias.vi"/>
+				<Item Name="Signal Names Get.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Signals/Signal Names Get.vi"/>
+				<Item Name="Signal Value Get (Animation period) v3.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Signals/Signal Value Get (Animation period) v3.vi"/>
 				<Item Name="StoreSpecParms.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/StoreSpecParms.vi"/>
 				<Item Name="Switch Mode STM-AFM.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Switch Mode STM-AFM.vi"/>
 				<Item Name="Switch scanners.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Switch scanners.vi"/>
@@ -69,7 +77,10 @@
 				<Item Name="Tip Shaper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Tip Shaper.vi"/>
 				<Item Name="User scan tool box.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/User scan tool box.vi"/>
 				<Item Name="Voltage pulses at various Z.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Voltage pulses at various Z.vi"/>
+				<Item Name="XY-Pos Set - Fast.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Scan/Follow Me/XY-Pos Set - Fast.vi"/>
 				<Item Name="Z drift - measure and compensate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Z drift - measure and compensate.vi"/>
+				<Item Name="Z-Ctrl Setpoint Get.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Z-Controller/Z-Ctrl Setpoint Get.vi"/>
+				<Item Name="Z-Pos Set.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Z-Controller/Z-Pos Set.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -92,7 +103,6 @@
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
@@ -196,6 +206,7 @@
 			</Item>
 			<Item Name="AutoApproach_FBL.vi" Type="VI" URL="../../SubVIs/AutoApproach_FBL.vi"/>
 			<Item Name="Calibration_FBL.vi" Type="VI" URL="../../SubVIs/Calibration_FBL.vi"/>
+			<Item Name="PlungeMap_FBL.vi" Type="VI" URL="../../SubVIs/PlungeMap_FBL.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
