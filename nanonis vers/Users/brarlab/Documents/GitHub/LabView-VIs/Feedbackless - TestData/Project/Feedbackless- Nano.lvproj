@@ -17,7 +17,6 @@
 		<Item Name="CurrentOutput_nano.vi" Type="VI" URL="../../SubVIs/CurrentOutput_nano.vi"/>
 		<Item Name="Forces_nano.vi" Type="VI" URL="../../SubVIs/Forces_nano.vi"/>
 		<Item Name="Frameremap_nano.vi" Type="VI" URL="../../SubVIs/Frameremap_nano.vi"/>
-		<Item Name="GlobalClicksHeight_nano.vi" Type="VI" URL="../../SubVIs/GlobalClicksHeight_nano.vi"/>
 		<Item Name="HapticSTM_nano.vi" Type="VI" URL="../../HapticSTM_nano.vi"/>
 		<Item Name="Input_nano.vi" Type="VI" URL="../../SubVIs/Input_nano.vi"/>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
@@ -207,6 +206,7 @@
 			</Item>
 			<Item Name="AutoApproach_nano.vi" Type="VI" URL="../../SubVIs/AutoApproach_nano.vi"/>
 			<Item Name="GlobalClicksHeight_FBL.vi" Type="VI" URL="../../../../../../../../../Feedbackless/SubVIs/GlobalClicksHeight_FBL.vi"/>
+			<Item Name="GlobalClicksHeight_nano.vi" Type="VI" URL="../../SubVIs/GlobalClicksHeight_nano.vi"/>
 			<Item Name="HapticSTM.lvlib" Type="Library" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
 			<Item Name="NanonisProperties_nano.vi" Type="VI" URL="../../SubVIs/NanonisProperties_nano.vi"/>
 		</Item>
