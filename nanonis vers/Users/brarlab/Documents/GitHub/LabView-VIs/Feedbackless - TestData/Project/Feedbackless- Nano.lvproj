@@ -10,22 +10,24 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Angles_FBL.vi" Type="VI" URL="../../SubVIs/Angles_FBL.vi"/>
-		<Item Name="CurrentInput_FBL.vi" Type="VI" URL="../../SubVIs/CurrentInput_FBL.vi"/>
-		<Item Name="CurrentOutput_FBL.vi" Type="VI" URL="../../SubVIs/CurrentOutput_FBL.vi"/>
-		<Item Name="Forces_FBL.vi" Type="VI" URL="../../SubVIs/Forces_FBL.vi"/>
-		<Item Name="Frameremap_FBL.vi" Type="VI" URL="../../SubVIs/Frameremap_FBL.vi"/>
-		<Item Name="GlobalClicksHeight_FBL.vi" Type="VI" URL="../../SubVIs/GlobalClicksHeight_FBL.vi"/>
-		<Item Name="HapticSTM_FBL.vi" Type="VI" URL="../../HapticSTM_FBL.vi"/>
-		<Item Name="Input_FBL.vi" Type="VI" URL="../../SubVIs/Input_FBL.vi"/>
+		<Item Name="Angles_nano.vi" Type="VI" URL="../../SubVIs/Angles_nano.vi"/>
+		<Item Name="Calibration.exe" Type="Document" URL="../../Calibration.exe"/>
+		<Item Name="Calibration_nano.vi" Type="VI" URL="../../SubVIs/Calibration_nano.vi"/>
+		<Item Name="CurrentInput_nano.vi" Type="VI" URL="../../SubVIs/CurrentInput_nano.vi"/>
+		<Item Name="CurrentOutput_nano.vi" Type="VI" URL="../../SubVIs/CurrentOutput_nano.vi"/>
+		<Item Name="Forces_nano.vi" Type="VI" URL="../../SubVIs/Forces_nano.vi"/>
+		<Item Name="Frameremap_nano.vi" Type="VI" URL="../../SubVIs/Frameremap_nano.vi"/>
+		<Item Name="GlobalClicksHeight_nano.vi" Type="VI" URL="../../SubVIs/GlobalClicksHeight_nano.vi"/>
+		<Item Name="HapticSTM_nano.vi" Type="VI" URL="../../HapticSTM_nano.vi"/>
+		<Item Name="Input_nano.vi" Type="VI" URL="../../SubVIs/Input_nano.vi"/>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
-		<Item Name="NanonisProperties_FBL.vi" Type="VI" URL="../../SubVIs/NanonisProperties_FBL.vi"/>
-		<Item Name="PlaneFit_FBL.vi" Type="VI" URL="../../SubVIs/PlaneFit_FBL.vi"/>
-		<Item Name="Position_FBL.vi" Type="VI" URL="../../SubVIs/Position_FBL.vi"/>
-		<Item Name="StartStop_FBL.vi" Type="VI" URL="../../SubVIs/StartStop_FBL.vi"/>
-		<Item Name="Velocity_FBL.vi" Type="VI" URL="../../SubVIs/Velocity_FBL.vi"/>
-		<Item Name="Yscaling_FBL.vi" Type="VI" URL="../../SubVIs/Yscaling_FBL.vi"/>
+		<Item Name="PlaneFit_nano.vi" Type="VI" URL="../../SubVIs/PlaneFit_nano.vi"/>
+		<Item Name="PlungeMap_nano.vi" Type="VI" URL="../../SubVIs/PlungeMap_nano.vi"/>
+		<Item Name="Position_nano.vi" Type="VI" URL="../../SubVIs/Position_nano.vi"/>
+		<Item Name="StartStop_nano.vi" Type="VI" URL="../../SubVIs/StartStop_nano.vi"/>
+		<Item Name="Velocity_nano.vi" Type="VI" URL="../../SubVIs/Velocity_nano.vi"/>
+		<Item Name="Yscaling_nano.vi" Type="VI" URL="../../SubVIs/Yscaling_nano.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
@@ -54,7 +56,6 @@
 				<Item Name="Grid Measurements Example - Potential.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Potential.vi"/>
 				<Item Name="Grid Measurements Example - Topo &amp; GridSpectr.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Topo &amp; GridSpectr.vi"/>
 				<Item Name="Grid Measurements with VISA connection to user instrument.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements with VISA connection to user instrument.vi"/>
-				<Item Name="HapticSTM.lvlib" Type="Library" URL="/&lt;userlib&gt;/HapticSTM/HapticSTM.lvlib"/>
 				<Item Name="History Chart 1-Channel.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/History Chart 1-Channel.vi"/>
 				<Item Name="MultiPass - Example-Callback-VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiPass Callback/MultiPass - Example-Callback-VI.vi"/>
 				<Item Name="MultiSegmentSpectroscopy.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiSegmentSpectroscopy.vi"/>
@@ -204,9 +205,10 @@
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="AutoApproach_nano.vi" Type="VI" URL="../../../nanonis vers/Users/brarlab/Documents/GitHub/LabView-VIs/Feedbackless - TestData/SubVIs/AutoApproach_nano.vi"/>
-			<Item Name="Calibration_FBL.vi" Type="VI" URL="../../SubVIs/Calibration_FBL.vi"/>
-			<Item Name="PlungeMap_FBL.vi" Type="VI" URL="../../SubVIs/PlungeMap_FBL.vi"/>
+			<Item Name="AutoApproach_nano.vi" Type="VI" URL="../../SubVIs/AutoApproach_nano.vi"/>
+			<Item Name="GlobalClicksHeight_FBL.vi" Type="VI" URL="../../../../../../../../../Feedbackless/SubVIs/GlobalClicksHeight_FBL.vi"/>
+			<Item Name="HapticSTM.lvlib" Type="Library" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
+			<Item Name="NanonisProperties_nano.vi" Type="VI" URL="../../SubVIs/NanonisProperties_nano.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
