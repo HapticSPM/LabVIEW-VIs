@@ -11,16 +11,19 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Angles_nano.vi" Type="VI" URL="../../SubVIs/Angles_nano.vi"/>
+		<Item Name="AutoApproach_nano.vi" Type="VI" URL="../../SubVIs/AutoApproach_nano.vi"/>
 		<Item Name="Calibration.exe" Type="Document" URL="../../Calibration.exe"/>
 		<Item Name="Calibration_nano.vi" Type="VI" URL="../../SubVIs/Calibration_nano.vi"/>
 		<Item Name="CurrentInput_nano.vi" Type="VI" URL="../../SubVIs/CurrentInput_nano.vi"/>
 		<Item Name="CurrentOutput_nano.vi" Type="VI" URL="../../SubVIs/CurrentOutput_nano.vi"/>
 		<Item Name="Forces_nano.vi" Type="VI" URL="../../SubVIs/Forces_nano.vi"/>
 		<Item Name="Frameremap_nano.vi" Type="VI" URL="../../SubVIs/Frameremap_nano.vi"/>
+		<Item Name="GlobalClicksHeight_nano.vi" Type="VI" URL="../../SubVIs/GlobalClicksHeight_nano.vi"/>
 		<Item Name="HapticSTM_nano.vi" Type="VI" URL="../../HapticSTM_nano.vi"/>
 		<Item Name="Input_nano.vi" Type="VI" URL="../../SubVIs/Input_nano.vi"/>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+		<Item Name="NanonisProperties_nano.vi" Type="VI" URL="../../SubVIs/NanonisProperties_nano.vi"/>
 		<Item Name="PlaneFit_nano.vi" Type="VI" URL="../../SubVIs/PlaneFit_nano.vi"/>
 		<Item Name="PlungeMap_nano.vi" Type="VI" URL="../../SubVIs/PlungeMap_nano.vi"/>
 		<Item Name="Position_nano.vi" Type="VI" URL="../../SubVIs/Position_nano.vi"/>
@@ -28,9 +31,6 @@
 		<Item Name="Velocity_nano.vi" Type="VI" URL="../../SubVIs/Velocity_nano.vi"/>
 		<Item Name="Yscaling_nano.vi" Type="VI" URL="../../SubVIs/Yscaling_nano.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
-			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
 				<Item Name="_user.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/_user.vi"/>
@@ -46,7 +46,6 @@
 				<Item Name="Draw Pattern Layer.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Draw Pattern Layer.vi"/>
 				<Item Name="Draw Scan Frame Outline.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Draw Scan Frame Outline.vi"/>
 				<Item Name="Feenstra type spectroscopy.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Feenstra type spectroscopy.vi"/>
-				<Item Name="FolMe Speed Get.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Scan/Follow Me/FolMe Speed Get.vi"/>
 				<Item Name="Force-Distance curve with offset compensation.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Force-Distance curve with offset compensation.vi"/>
 				<Item Name="GenericSweep - Multiple sweeps.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/GenericSweep - Multiple sweeps.vi"/>
 				<Item Name="Get XY points from image.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Get XY points from image.vi"/>
@@ -67,8 +66,6 @@
 				<Item Name="ScanMonitor.PI.Multiple.Generate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ScanMonitor.PI.Multiple.Generate.vi"/>
 				<Item Name="ScanMonitor.PI.Template.vit" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ScanMonitor.PI.Template.vit"/>
 				<Item Name="Scans at different Bias.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Scans at different Bias.vi"/>
-				<Item Name="Signal Names Get.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Signals/Signal Names Get.vi"/>
-				<Item Name="Signal Value Get (Animation period) v3.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Signals/Signal Value Get (Animation period) v3.vi"/>
 				<Item Name="StoreSpecParms.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/StoreSpecParms.vi"/>
 				<Item Name="Switch Mode STM-AFM.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Switch Mode STM-AFM.vi"/>
 				<Item Name="Switch scanners.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Switch scanners.vi"/>
@@ -204,11 +201,7 @@
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="AutoApproach_nano.vi" Type="VI" URL="../../SubVIs/AutoApproach_nano.vi"/>
-			<Item Name="GlobalClicksHeight_FBL.vi" Type="VI" URL="../../../../../../../../../Feedbackless/SubVIs/GlobalClicksHeight_FBL.vi"/>
-			<Item Name="GlobalClicksHeight_nano.vi" Type="VI" URL="../../SubVIs/GlobalClicksHeight_nano.vi"/>
 			<Item Name="HapticSTM.lvlib" Type="Library" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
-			<Item Name="NanonisProperties_nano.vi" Type="VI" URL="../../SubVIs/NanonisProperties_nano.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
