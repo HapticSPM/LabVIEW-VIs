@@ -203,6 +203,7 @@
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
 			<Item Name="HapticSTM.lvlib" Type="Library" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
+			<Item Name="NanonisProperties_tessttttt.vi" Type="VI" URL="../../../../../../../../../2017 Nanonis Lag/Users/brarlab/Documents/GitHub/LabView-VIs/nanonis vers/Users/brarlab/Documents/GitHub/LabView-VIs/Feedbackless - TestData/SubVIs/NanonisProperties_tessttttt.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
