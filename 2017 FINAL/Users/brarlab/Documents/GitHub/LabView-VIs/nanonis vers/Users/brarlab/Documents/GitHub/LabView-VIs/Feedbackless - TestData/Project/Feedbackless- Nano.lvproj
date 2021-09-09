@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="19008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -17,6 +17,7 @@
 		<Item Name="CurrentInput_nano.vi" Type="VI" URL="../../SubVIs/CurrentInput_nano.vi"/>
 		<Item Name="CurrentOutput_nano.vi" Type="VI" URL="../../SubVIs/CurrentOutput_nano.vi"/>
 		<Item Name="Forces_nano.vi" Type="VI" URL="../../SubVIs/Forces_nano.vi"/>
+		<Item Name="Frameproperties_testdata.vi" Type="VI" URL="../../SubVIs/Frameproperties_testdata.vi"/>
 		<Item Name="Frameremap_nano.vi" Type="VI" URL="../../SubVIs/Frameremap_nano.vi"/>
 		<Item Name="GlobalClicksHeight_nano.vi" Type="VI" URL="../../SubVIs/GlobalClicksHeight_nano.vi"/>
 		<Item Name="HapticSTM_nano.vi" Type="VI" URL="../../HapticSTM_nano.vi"/>
@@ -55,14 +56,13 @@
 				<Item Name="Grid Measurements Example - Topo &amp; GridSpectr.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Topo &amp; GridSpectr.vi"/>
 				<Item Name="Grid Measurements with VISA connection to user instrument.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements with VISA connection to user instrument.vi"/>
 				<Item Name="History Chart 1-Channel.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/History Chart 1-Channel.vi"/>
+				<Item Name="Ms to Wait with error cluster.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Utilities/Ms to Wait with error cluster.vi"/>
 				<Item Name="MultiPass - Example-Callback-VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiPass Callback/MultiPass - Example-Callback-VI.vi"/>
 				<Item Name="MultiSegmentSpectroscopy.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiSegmentSpectroscopy.vi"/>
-				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="../../../../../../../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
+				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
 				<Item Name="ncAFM Amplitude Calibration.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ncAFM Amplitude Calibration.vi"/>
 				<Item Name="Point Shoot Example - MultipleSpectro.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on Point &amp; Shoot/Point Shoot Example - MultipleSpectro.vi"/>
-				<Item Name="Prog Interface - OpenAppRef with methods.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/_Private VIs/Prog Interface - OpenAppRef with methods.vi"/>
 				<Item Name="READ ME - External VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/READ ME - External VI.vi"/>
-				<Item Name="ScanFrame Get.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Scan/ScanFrame Get.vi"/>
 				<Item Name="ScanMonitor.PI.Multiple.Generate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ScanMonitor.PI.Multiple.Generate.vi"/>
 				<Item Name="ScanMonitor.PI.Template.vit" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ScanMonitor.PI.Template.vit"/>
 				<Item Name="Scans at different Bias.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Scans at different Bias.vi"/>
@@ -74,10 +74,7 @@
 				<Item Name="Tip Shaper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Tip Shaper.vi"/>
 				<Item Name="User scan tool box.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/User scan tool box.vi"/>
 				<Item Name="Voltage pulses at various Z.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Voltage pulses at various Z.vi"/>
-				<Item Name="XY-Pos Set - Fast.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Scan/Follow Me/XY-Pos Set - Fast.vi"/>
 				<Item Name="Z drift - measure and compensate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Z drift - measure and compensate.vi"/>
-				<Item Name="Z-Ctrl Setpoint Get.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Z-Controller/Z-Ctrl Setpoint Get.vi"/>
-				<Item Name="Z-Pos Set.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Z-Controller/Z-Pos Set.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -96,10 +93,12 @@
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
@@ -122,6 +121,7 @@
 				<Item Name="ex_SetExpAttribsAndT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetExpAttribsAndT0.vi"/>
 				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
 				<Item Name="ex_WaveformAttribsPlus.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribsPlus.ctl"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
@@ -152,12 +152,19 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
 				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
 				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Sampling Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sampling Mode.ctl"/>
@@ -201,6 +208,8 @@
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
+			<Item Name="CurrentOutput_flt.vi" Type="VI" URL="../../../../../../../../../../../../../../../Feedbackless - TestData/SubVIs/CurrentOutput_flt.vi"/>
+			<Item Name="GlobalClicksHeight_flt.vi" Type="VI" URL="../../../../../../../../../../../../../../../Feedbackless - TestData/SubVIs/GlobalClicksHeight_flt.vi"/>
 			<Item Name="HapticSTM.lvlib" Type="Library" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
