@@ -10,7 +10,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Angles_raw.vi" Type="VI" URL="../SubVIs/Angles_raw.vi"/>
 		<Item Name="AutoApproach_raw.vi" Type="VI" URL="../SubVIs/AutoApproach_raw.vi"/>
 		<Item Name="Calibration_raw.vi" Type="VI" URL="../SubVIs/Calibration_raw.vi"/>
 		<Item Name="CurrentInput_raw.vi" Type="VI" URL="../SubVIs/CurrentInput_raw.vi"/>
@@ -28,7 +27,6 @@
 		<Item Name="PlungeMap_raw.vi" Type="VI" URL="../SubVIs/PlungeMap_raw.vi"/>
 		<Item Name="Position_raw.vi" Type="VI" URL="../SubVIs/Position_raw.vi"/>
 		<Item Name="StartStop_raw.vi" Type="VI" URL="../SubVIs/StartStop_raw.vi"/>
-		<Item Name="Velocity_raw.vi" Type="VI" URL="../SubVIs/Velocity_raw.vi"/>
 		<Item Name="Yscaling_raw.vi" Type="VI" URL="../SubVIs/Yscaling_raw.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -54,8 +52,8 @@
 				<Item Name="Grid Measurements Example - Potential.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Potential.vi"/>
 				<Item Name="Grid Measurements Example - Topo &amp; GridSpectr.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Topo &amp; GridSpectr.vi"/>
 				<Item Name="Grid Measurements with VISA connection to user instrument.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements with VISA connection to user instrument.vi"/>
+				<Item Name="HapticSTM.lvlib" Type="Library" URL="/&lt;userlib&gt;/HapticSTM/HapticSTM.lvlib"/>
 				<Item Name="History Chart 1-Channel.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/History Chart 1-Channel.vi"/>
-				<Item Name="Ms to Wait with error cluster.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Utilities/Ms to Wait with error cluster.vi"/>
 				<Item Name="MultiPass - Example-Callback-VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiPass Callback/MultiPass - Example-Callback-VI.vi"/>
 				<Item Name="MultiSegmentSpectroscopy.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiSegmentSpectroscopy.vi"/>
 				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
@@ -207,7 +205,6 @@
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="HapticSTM.lvlib" Type="Library" URL="../../2017 FINAL/Users/brarlab/Documents/GitHub/LabView-VIs/nanonis vers/Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
