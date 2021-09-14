@@ -10,27 +10,26 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Angles_nano.vi" Type="VI" URL="../../SubVIs/Angles_nano.vi"/>
-		<Item Name="AutoApproach_nano.vi" Type="VI" URL="../../SubVIs/AutoApproach_nano.vi"/>
-		<Item Name="Calibration.exe" Type="Document" URL="../../Calibration.exe"/>
-		<Item Name="Calibration_nano.vi" Type="VI" URL="../../SubVIs/Calibration_nano.vi"/>
-		<Item Name="CurrentInput_nano.vi" Type="VI" URL="../../SubVIs/CurrentInput_nano.vi"/>
-		<Item Name="CurrentOutput_nano.vi" Type="VI" URL="../../SubVIs/CurrentOutput_nano.vi"/>
-		<Item Name="Forces_nano.vi" Type="VI" URL="../../SubVIs/Forces_nano.vi"/>
-		<Item Name="Frameproperties_testdata.vi" Type="VI" URL="../../SubVIs/Frameproperties_testdata.vi"/>
-		<Item Name="Frameremap_nano.vi" Type="VI" URL="../../SubVIs/Frameremap_nano.vi"/>
-		<Item Name="GlobalClicksHeight_nano.vi" Type="VI" URL="../../SubVIs/GlobalClicksHeight_nano.vi"/>
-		<Item Name="HapticSTM_nano.vi" Type="VI" URL="../../HapticSTM_nano.vi"/>
-		<Item Name="Input_nano.vi" Type="VI" URL="../../SubVIs/Input_nano.vi"/>
+		<Item Name="Angles_raw.vi" Type="VI" URL="../SubVIs/Angles_raw.vi"/>
+		<Item Name="AutoApproach_raw.vi" Type="VI" URL="../SubVIs/AutoApproach_raw.vi"/>
+		<Item Name="Calibration_raw.vi" Type="VI" URL="../SubVIs/Calibration_raw.vi"/>
+		<Item Name="CurrentInput_raw.vi" Type="VI" URL="../SubVIs/CurrentInput_raw.vi"/>
+		<Item Name="CurrentOutput_raw.vi" Type="VI" URL="../SubVIs/CurrentOutput_raw.vi"/>
+		<Item Name="Forces_raw.vi" Type="VI" URL="../SubVIs/Forces_raw.vi"/>
+		<Item Name="Frameproperties_raw.vi" Type="VI" URL="../SubVIs/Frameproperties_raw.vi"/>
+		<Item Name="Frameremap_raw.vi" Type="VI" URL="../SubVIs/Frameremap_raw.vi"/>
+		<Item Name="GlobalClicksHeight_raw.vi" Type="VI" URL="../SubVIs/GlobalClicksHeight_raw.vi"/>
+		<Item Name="HapticSTM_raw.vi" Type="VI" URL="../HapticSTM_raw.vi"/>
+		<Item Name="Input_raw.vi" Type="VI" URL="../SubVIs/Input_raw.vi"/>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
-		<Item Name="NanonisProperties_nano.vi" Type="VI" URL="../../SubVIs/NanonisProperties_nano.vi"/>
-		<Item Name="PlaneFit_nano.vi" Type="VI" URL="../../SubVIs/PlaneFit_nano.vi"/>
-		<Item Name="PlungeMap_nano.vi" Type="VI" URL="../../SubVIs/PlungeMap_nano.vi"/>
-		<Item Name="Position_nano.vi" Type="VI" URL="../../SubVIs/Position_nano.vi"/>
-		<Item Name="StartStop_nano.vi" Type="VI" URL="../../SubVIs/StartStop_nano.vi"/>
-		<Item Name="Velocity_nano.vi" Type="VI" URL="../../SubVIs/Velocity_nano.vi"/>
-		<Item Name="Yscaling_nano.vi" Type="VI" URL="../../SubVIs/Yscaling_nano.vi"/>
+		<Item Name="NanonisProperties_raw.vi" Type="VI" URL="../SubVIs/NanonisProperties_raw.vi"/>
+		<Item Name="PlaneFit_raw.vi" Type="VI" URL="../SubVIs/PlaneFit_raw.vi"/>
+		<Item Name="PlungeMap_raw.vi" Type="VI" URL="../SubVIs/PlungeMap_raw.vi"/>
+		<Item Name="Position_raw.vi" Type="VI" URL="../SubVIs/Position_raw.vi"/>
+		<Item Name="StartStop_raw.vi" Type="VI" URL="../SubVIs/StartStop_raw.vi"/>
+		<Item Name="Velocity_raw.vi" Type="VI" URL="../SubVIs/Velocity_raw.vi"/>
+		<Item Name="Yscaling_raw.vi" Type="VI" URL="../SubVIs/Yscaling_raw.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
@@ -208,9 +207,7 @@
 				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="CurrentOutput_flt.vi" Type="VI" URL="../../../../../../../../../../../../../../../Feedbackless - TestData/SubVIs/CurrentOutput_flt.vi"/>
-			<Item Name="GlobalClicksHeight_flt.vi" Type="VI" URL="../../../../../../../../../../../../../../../Feedbackless - TestData/SubVIs/GlobalClicksHeight_flt.vi"/>
-			<Item Name="HapticSTM.lvlib" Type="Library" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
+			<Item Name="HapticSTM.lvlib" Type="Library" URL="../../2017 FINAL/Users/brarlab/Documents/GitHub/LabView-VIs/nanonis vers/Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
