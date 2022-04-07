@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="17008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -53,11 +53,11 @@
 				<Item Name="Grid Measurements Example - Potential.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Potential.vi"/>
 				<Item Name="Grid Measurements Example - Topo &amp; GridSpectr.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Topo &amp; GridSpectr.vi"/>
 				<Item Name="Grid Measurements with VISA connection to user instrument.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements with VISA connection to user instrument.vi"/>
-				<Item Name="HapticSTM.lvlib" Type="Library" URL="/&lt;userlib&gt;/HapticSTM/HapticSTM.lvlib"/>
+				<Item Name="HapticSTM.lvlib" Type="Library" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/HapticSTM/HapticSTM.lvlib"/>
 				<Item Name="History Chart 1-Channel.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/History Chart 1-Channel.vi"/>
 				<Item Name="MultiPass - Example-Callback-VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiPass Callback/MultiPass - Example-Callback-VI.vi"/>
 				<Item Name="MultiSegmentSpectroscopy.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiSegmentSpectroscopy.vi"/>
-				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
+				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/user.lib/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
 				<Item Name="ncAFM Amplitude Calibration.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ncAFM Amplitude Calibration.vi"/>
 				<Item Name="Point Shoot Example - MultipleSpectro.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on Point &amp; Shoot/Point Shoot Example - MultipleSpectro.vi"/>
 				<Item Name="READ ME - External VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/READ ME - External VI.vi"/>
