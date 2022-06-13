@@ -10,25 +10,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="AutoApproach_raw.vi" Type="VI" URL="../SubVIs/AutoApproach_raw.vi"/>
-		<Item Name="Calibration_raw.vi" Type="VI" URL="../SubVIs/Calibration_raw.vi"/>
-		<Item Name="CurrentInput_raw.vi" Type="VI" URL="../SubVIs/CurrentInput_raw.vi"/>
-		<Item Name="CurrentOutput_raw.vi" Type="VI" URL="../SubVIs/CurrentOutput_raw.vi"/>
-		<Item Name="Forces_raw.vi" Type="VI" URL="../SubVIs/Forces_raw.vi"/>
-		<Item Name="Frameproperties_raw.vi" Type="VI" URL="../SubVIs/Frameproperties_raw.vi"/>
-		<Item Name="Frameremap_raw.vi" Type="VI" URL="../SubVIs/Frameremap_raw.vi"/>
-		<Item Name="GlobalClicksHeight_raw.vi" Type="VI" URL="../SubVIs/GlobalClicksHeight_raw.vi"/>
-		<Item Name="HapticSTM_raw.vi" Type="VI" URL="../HapticSTM_raw.vi"/>
-		<Item Name="HapticSTM_rawspeed.vi" Type="VI" URL="../HapticSTM_rawspeed.vi"/>
-		<Item Name="Input_raw.vi" Type="VI" URL="../SubVIs/Input_raw.vi"/>
+		<Item Name="AutoApproach.vi" Type="VI" URL="../SubVIs/AutoApproach.vi"/>
+		<Item Name="CurrentInput.vi" Type="VI" URL="../SubVIs/CurrentInput.vi"/>
+		<Item Name="Forces.vi" Type="VI" URL="../SubVIs/Forces.vi"/>
+		<Item Name="Frameremap.vi" Type="VI" URL="../SubVIs/Frameremap.vi"/>
+		<Item Name="GlobalClicksHeight.vi" Type="VI" URL="../SubVIs/GlobalClicksHeight.vi"/>
+		<Item Name="HapticSTM.vi" Type="VI" URL="../HapticSTM.vi"/>
+		<Item Name="Input.vi" Type="VI" URL="../SubVIs/Input.vi"/>
 		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
-		<Item Name="NanonisProperties_raw.vi" Type="VI" URL="../SubVIs/NanonisProperties_raw.vi"/>
-		<Item Name="PlaneFit_raw.vi" Type="VI" URL="../SubVIs/PlaneFit_raw.vi"/>
-		<Item Name="PlungeMap_raw.vi" Type="VI" URL="../SubVIs/PlungeMap_raw.vi"/>
-		<Item Name="Position_raw.vi" Type="VI" URL="../SubVIs/Position_raw.vi"/>
-		<Item Name="StartStop_raw.vi" Type="VI" URL="../SubVIs/StartStop_raw.vi"/>
-		<Item Name="Yscaling_raw.vi" Type="VI" URL="../SubVIs/Yscaling_raw.vi"/>
+		<Item Name="PlaneFit.vi" Type="VI" URL="../SubVIs/PlaneFit.vi"/>
+		<Item Name="PlungeMap.vi" Type="VI" URL="../SubVIs/PlungeMap.vi"/>
+		<Item Name="Position.vi" Type="VI" URL="../SubVIs/Position.vi"/>
+		<Item Name="StartStop.vi" Type="VI" URL="../SubVIs/StartStop.vi"/>
+		<Item Name="Yscaling.vi" Type="VI" URL="../SubVIs/Yscaling.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
@@ -145,7 +140,6 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -161,9 +155,7 @@
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="AutoApproach_rawspeed.vi" Type="VI" URL="../SubVIs/AutoApproach_rawspeed.vi"/>
-			<Item Name="CurrentInput_rawspeed.vi" Type="VI" URL="../SubVIs/CurrentInput_rawspeed.vi"/>
-			<Item Name="NanonisProperties_rawspeed.vi" Type="VI" URL="../SubVIs/NanonisProperties_rawspeed.vi"/>
+			<Item Name="NanonisProperties.vi" Type="VI" URL="../SubVIs/NanonisProperties.vi"/>
 			<Item Name="SaveData.vi" Type="VI" URL="../SubVIs/SaveData.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
