@@ -11,6 +11,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="ReadRate.vi" Type="VI" URL="../ReadRate.vi"/>
+		<Item Name="ReadRatetest.vi" Type="VI" URL="../ReadRatetest.vi"/>
+		<Item Name="StringThing.vi" Type="VI" URL="../Lag Measure Folder/StringThing.vi"/>
+		<Item Name="StringThing.vi" Type="VI" URL="../SubVIs/StringThing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
