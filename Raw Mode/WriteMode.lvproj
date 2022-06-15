@@ -10,21 +10,24 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="AutoApproach.vi" Type="VI" URL="../SubVIs/AutoApproach.vi"/>
-		<Item Name="CurrentInput.vi" Type="VI" URL="../SubVIs/CurrentInput.vi"/>
-		<Item Name="Forces.vi" Type="VI" URL="../SubVIs/Forces.vi"/>
-		<Item Name="Frameremap.vi" Type="VI" URL="../SubVIs/Frameremap.vi"/>
-		<Item Name="GlobalClicksHeight.vi" Type="VI" URL="../SubVIs/GlobalClicksHeight.vi"/>
-		<Item Name="HapticSTM.vi" Type="VI" URL="../HapticSTM.vi"/>
-		<Item Name="Input.vi" Type="VI" URL="../SubVIs/Input.vi"/>
-		<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-		<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
-		<Item Name="PlaneFit.vi" Type="VI" URL="../SubVIs/PlaneFit.vi"/>
-		<Item Name="PlungeMap.vi" Type="VI" URL="../SubVIs/PlungeMap.vi"/>
-		<Item Name="Position.vi" Type="VI" URL="../SubVIs/Position.vi"/>
-		<Item Name="SIM_FrameProperties.vi" Type="VI" URL="../SubVIs/SIM_FrameProperties.vi"/>
-		<Item Name="StartStop.vi" Type="VI" URL="../SubVIs/StartStop.vi"/>
-		<Item Name="Yscaling.vi" Type="VI" URL="../SubVIs/Yscaling.vi"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="AutoApproach.vi" Type="VI" URL="../SubVIs/AutoApproach.vi"/>
+			<Item Name="CurrentInput.vi" Type="VI" URL="../SubVIs/CurrentInput.vi"/>
+			<Item Name="Forces.vi" Type="VI" URL="../SubVIs/Forces.vi"/>
+			<Item Name="Frameremap.vi" Type="VI" URL="../SubVIs/Frameremap.vi"/>
+			<Item Name="GlobalClicksHeight.vi" Type="VI" URL="../SubVIs/GlobalClicksHeight.vi"/>
+			<Item Name="Input.vi" Type="VI" URL="../SubVIs/Input.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="PlaneFit.vi" Type="VI" URL="../SubVIs/PlaneFit.vi"/>
+			<Item Name="PlungeMap.vi" Type="VI" URL="../SubVIs/PlungeMap.vi"/>
+			<Item Name="Position.vi" Type="VI" URL="../SubVIs/Position.vi"/>
+			<Item Name="SIM_FrameProperties.vi" Type="VI" URL="../SubVIs/SIM_FrameProperties.vi"/>
+			<Item Name="StartStop.vi" Type="VI" URL="../SubVIs/StartStop.vi"/>
+			<Item Name="Yscaling.vi" Type="VI" URL="../SubVIs/Yscaling.vi"/>
+		</Item>
+		<Item Name="HapticSTM-write.vi" Type="VI" URL="../HapticSTM-write.vi"/>
+		<Item Name="HapticSTM_write_test-bench.vi" Type="VI" URL="../HapticSTM_write_test-bench.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
