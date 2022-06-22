@@ -10,11 +10,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="StringArray.vi" Type="VI" URL="../SubVIs/StringArray.vi"/>
+			<Item Name="StringThing.vi" Type="VI" URL="../SubVIs/StringThing.vi"/>
+			<Item Name="ViewStringNotepad.vi" Type="VI" URL="../SubVIs/ViewStringNotepad.vi"/>
+		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="ReadRate.vi" Type="VI" URL="../ReadRate.vi"/>
 		<Item Name="ReadRatetest.vi" Type="VI" URL="../ReadRatetest.vi"/>
-		<Item Name="StringThing.vi" Type="VI" URL="../Lag Measure Folder/StringThing.vi"/>
-		<Item Name="StringThing.vi" Type="VI" URL="../SubVIs/StringThing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
@@ -130,6 +133,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>

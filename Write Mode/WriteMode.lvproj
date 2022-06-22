@@ -171,6 +171,7 @@
 			</Item>
 			<Item Name="NanonisProperties.vi" Type="VI" URL="../SubVIs/NanonisProperties.vi"/>
 			<Item Name="SaveData.vi" Type="VI" URL="../SubVIs/SaveData.vi"/>
+			<Item Name="SIM_CurrentOutput.vi" Type="VI" URL="../SubVIs/SIM_CurrentOutput.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
