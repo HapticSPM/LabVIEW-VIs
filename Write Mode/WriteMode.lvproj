@@ -19,15 +19,18 @@
 			<Item Name="Input.vi" Type="VI" URL="../SubVIs/Input.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="NanonisProperties.vi" Type="VI" URL="../SubVIs/NanonisProperties.vi"/>
 			<Item Name="PlaneFit.vi" Type="VI" URL="../SubVIs/PlaneFit.vi"/>
 			<Item Name="PlungeMap.vi" Type="VI" URL="../SubVIs/PlungeMap.vi"/>
 			<Item Name="Position.vi" Type="VI" URL="../SubVIs/Position.vi"/>
+			<Item Name="SaveData.vi" Type="VI" URL="../SubVIs/SaveData.vi"/>
 			<Item Name="SIM_FrameProperties.vi" Type="VI" URL="../SubVIs/SIM_FrameProperties.vi"/>
 			<Item Name="StartStop.vi" Type="VI" URL="../SubVIs/StartStop.vi"/>
 			<Item Name="Yscaling.vi" Type="VI" URL="../SubVIs/Yscaling.vi"/>
 		</Item>
-		<Item Name="HapticSTM-write.vi" Type="VI" URL="../HapticSTM-write.vi"/>
-		<Item Name="HapticSTM_write_test-bench.vi" Type="VI" URL="../HapticSTM_write_test-bench.vi"/>
+		<Item Name="Haptic Prog Interface.lvlib" Type="Library" URL="../../Haptic Prog Interface/Haptic Prog Interface.lvlib"/>
+		<Item Name="HapticSPM-write.vi" Type="VI" URL="../HapticSPM-write.vi"/>
+		<Item Name="HapticSPM_write_test-bench.vi" Type="VI" URL="../HapticSPM_write_test-bench.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
@@ -52,6 +55,7 @@
 				<Item Name="Grid Measurements Example - Potential.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Potential.vi"/>
 				<Item Name="Grid Measurements Example - Topo &amp; GridSpectr.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Topo &amp; GridSpectr.vi"/>
 				<Item Name="Grid Measurements with VISA connection to user instrument.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements with VISA connection to user instrument.vi"/>
+				<Item Name="Haptic Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Haptic Prog Interface/Haptic Prog Interface.lvlib"/>
 				<Item Name="HapticSTM.lvlib" Type="Library" URL="/&lt;userlib&gt;/HapticSTM/HapticSTM.lvlib"/>
 				<Item Name="History Chart 1-Channel.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/History Chart 1-Channel.vi"/>
 				<Item Name="MultiPass - Example-Callback-VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiPass Callback/MultiPass - Example-Callback-VI.vi"/>
@@ -169,8 +173,6 @@
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="NanonisProperties.vi" Type="VI" URL="../SubVIs/NanonisProperties.vi"/>
-			<Item Name="SaveData.vi" Type="VI" URL="../SubVIs/SaveData.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
