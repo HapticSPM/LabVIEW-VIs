@@ -14,10 +14,11 @@
 		<Item Name="Forces Set.vi" Type="VI" URL="/&lt;userlib&gt;/Haptic Prog Interface/Forces Set.vi"/>
 	</Item>
 	<Item Name="Position" Type="Folder">
-		<Item Name="Position (Reframed) Get.vi" Type="VI" URL="/&lt;userlib&gt;/Haptic Prog Interface/Position (Reframed) Get.vi"/>
+		<Item Name="Position (Reframed) Get.vi" Type="VI" URL="../Position (Reframed) Get.vi"/>
 		<Item Name="Position Get.vi" Type="VI" URL="/&lt;userlib&gt;/Haptic Prog Interface/Position Get.vi"/>
 	</Item>
 	<Item Name="SPM Specific" Type="Folder">
+		<Item Name="Planing Set.vi" Type="VI" URL="../Planing Set.vi"/>
 		<Item Name="Signal Input.vi" Type="VI" URL="../Signal Input.vi"/>
 	</Item>
 	<Item Name="Velocity" Type="Folder">
