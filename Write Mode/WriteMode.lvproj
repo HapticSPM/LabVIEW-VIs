@@ -28,8 +28,8 @@
 			<Item Name="StartStop.vi" Type="VI" URL="../SubVIs/StartStop.vi"/>
 			<Item Name="Yscaling.vi" Type="VI" URL="../SubVIs/Yscaling.vi"/>
 		</Item>
-		<Item Name="Haptic Prog Interface.lvlib" Type="Library" URL="../../Haptic Prog Interface/Haptic Prog Interface.lvlib"/>
-		<Item Name="HapticSPM-write.vi" Type="VI" URL="../HapticSPM-write.vi"/>
+		<Item Name="Haptic Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Haptic Prog Interface/Haptic Prog Interface.lvlib"/>
+		<Item Name="HapticSPM_write.vi" Type="VI" URL="../HapticSPM_write.vi"/>
 		<Item Name="HapticSPM_write_test-bench.vi" Type="VI" URL="../HapticSPM_write_test-bench.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -55,7 +55,6 @@
 				<Item Name="Grid Measurements Example - Potential.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Potential.vi"/>
 				<Item Name="Grid Measurements Example - Topo &amp; GridSpectr.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Topo &amp; GridSpectr.vi"/>
 				<Item Name="Grid Measurements with VISA connection to user instrument.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements with VISA connection to user instrument.vi"/>
-				<Item Name="Haptic Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Haptic Prog Interface/Haptic Prog Interface.lvlib"/>
 				<Item Name="HapticSTM.lvlib" Type="Library" URL="/&lt;userlib&gt;/HapticSTM/HapticSTM.lvlib"/>
 				<Item Name="History Chart 1-Channel.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/History Chart 1-Channel.vi"/>
 				<Item Name="MultiPass - Example-Callback-VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiPass Callback/MultiPass - Example-Callback-VI.vi"/>
@@ -126,6 +125,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="NI_3dgraph.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/NI_3dgraph.lvlib"/>
@@ -172,6 +172,14 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+			</Item>
+			<Item Name="FrameString.vi" Type="VI" URL="../SubVIs/FrameString.vi"/>
+			<Item Name="Haptic Programming Interface.dll" Type="Document" URL="../../../../../../../../Program Files/National Instruments/LabVIEW 2019/src/x64/Debug/Haptic Programming Interface.dll"/>
+			<Item Name="Haptic Programming Interface.dll" Type="Document" URL="../../../Haptic-Programming-Interface/src/x64/Debug/Haptic Programming Interface.dll"/>
+			<Item Name="PointerPosition.vi" Type="VI" URL="../SubVIs/PointerPosition.vi"/>
+			<Item Name="SIM_CurrentOutput.vi" Type="VI" URL="../SubVIs/SIM_CurrentOutput.vi"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
