@@ -19,15 +19,18 @@
 			<Item Name="Input.vi" Type="VI" URL="../SubVIs/Input.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
+			<Item Name="NanonisProperties.vi" Type="VI" URL="../SubVIs/NanonisProperties.vi"/>
 			<Item Name="PlaneFit.vi" Type="VI" URL="../SubVIs/PlaneFit.vi"/>
 			<Item Name="PlungeMap.vi" Type="VI" URL="../SubVIs/PlungeMap.vi"/>
 			<Item Name="Position.vi" Type="VI" URL="../SubVIs/Position.vi"/>
+			<Item Name="SaveData.vi" Type="VI" URL="../SubVIs/SaveData.vi"/>
 			<Item Name="SIM_FrameProperties.vi" Type="VI" URL="../SubVIs/SIM_FrameProperties.vi"/>
 			<Item Name="StartStop.vi" Type="VI" URL="../SubVIs/StartStop.vi"/>
 			<Item Name="Yscaling.vi" Type="VI" URL="../SubVIs/Yscaling.vi"/>
 		</Item>
-		<Item Name="HapticSTM-write.vi" Type="VI" URL="../HapticSTM-write.vi"/>
-		<Item Name="HapticSTM_write_test-bench.vi" Type="VI" URL="../HapticSTM_write_test-bench.vi"/>
+		<Item Name="Haptic Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Haptic Prog Interface/Haptic Prog Interface.lvlib"/>
+		<Item Name="HapticSPM_write.vi" Type="VI" URL="../HapticSPM_write.vi"/>
+		<Item Name="HapticSPM_write_test-bench.vi" Type="VI" URL="../HapticSPM_write_test-bench.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="2D Sweep using GenSweeper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/2D Sweep using GenSweeper.vi"/>
@@ -99,6 +102,7 @@
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
+				<Item Name="Draw Oval.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Oval.vi"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -169,9 +173,21 @@
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+<<<<<<< HEAD
+			<Item Name="FrameString.vi" Type="VI" URL="../SubVIs/FrameString.vi"/>
+			<Item Name="Haptic Programming Interface.dll" Type="Document" URL="../../../Haptic-Programming-Interface/src/x64/Debug/Haptic Programming Interface.dll"/>
+			<Item Name="Image Draw.vi" Type="VI" URL="../SubVIs/Image Draw.vi"/>
+			<Item Name="Image.vi" Type="VI" URL="../SubVIs/Image.vi"/>
+			<Item Name="PointerPosition.vi" Type="VI" URL="../SubVIs/PointerPosition.vi"/>
+			<Item Name="SIM_CurrentOutput.vi" Type="VI" URL="../SubVIs/SIM_CurrentOutput.vi"/>
+			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+=======
 			<Item Name="NanonisProperties.vi" Type="VI" URL="../SubVIs/NanonisProperties.vi"/>
 			<Item Name="SaveData.vi" Type="VI" URL="../SubVIs/SaveData.vi"/>
 			<Item Name="SIM_CurrentOutput.vi" Type="VI" URL="../SubVIs/SIM_CurrentOutput.vi"/>
+>>>>>>> 78d6b3daee0083e94387ec4e1796331cdcab28cb
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
