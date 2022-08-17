@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -41,40 +41,60 @@
 				<Item Name="Binary_SpectroscopyFile-Plot3D-Surface.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Binary_SpectroscopyFile-Plot3D-Surface.vi"/>
 				<Item Name="Binary_SpectroscopyFile-ProcessTemplate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Binary_SpectroscopyFile-ProcessTemplate.vi"/>
 				<Item Name="Binary_SpectroscopyFile-Read&amp;ProcessTemplate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Binary_SpectroscopyFile-Read&amp;ProcessTemplate.vi"/>
+				<Item Name="clicks.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/clicks.vi"/>
+				<Item Name="config.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/config.vi"/>
 				<Item Name="Convert SXM to PNG.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Convert SXM to PNG.vi"/>
 				<Item Name="Custom Bias Sweep (pt by pt).vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Custom Bias Sweep (pt by pt).vi"/>
 				<Item Name="Custom Z Sweep (pt by pt).vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Custom Z Sweep (pt by pt).vi"/>
+				<Item Name="Cut overscan area from file.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Cut overscan area from file.vi"/>
+				<Item Name="datain.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/datain.vi"/>
 				<Item Name="Draw Pattern Layer.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Draw Pattern Layer.vi"/>
 				<Item Name="Draw Scan Frame Outline.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Draw Scan Frame Outline.vi"/>
 				<Item Name="Feenstra type spectroscopy.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Feenstra type spectroscopy.vi"/>
 				<Item Name="Force-Distance curve with offset compensation.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Force-Distance curve with offset compensation.vi"/>
 				<Item Name="GenericSweep - Multiple sweeps.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/GenericSweep - Multiple sweeps.vi"/>
 				<Item Name="Get XY points from image.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Get XY points from image.vi"/>
+				<Item Name="getcurrent.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/getcurrent.vi"/>
+				<Item Name="getforcex.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/getforcex.vi"/>
+				<Item Name="getforcey.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/getforcey.vi"/>
+				<Item Name="getforcez.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/getforcez.vi"/>
+				<Item Name="getposx.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/getposx.vi"/>
+				<Item Name="getposy.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/getposy.vi"/>
+				<Item Name="getposz.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/getposz.vi"/>
 				<Item Name="Grid Measurements Example - ExtractPointSpectro.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - ExtractPointSpectro.vi"/>
 				<Item Name="Grid Measurements Example - MultipleSpectro.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - MultipleSpectro.vi"/>
 				<Item Name="Grid Measurements Example - Potential.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Potential.vi"/>
 				<Item Name="Grid Measurements Example - Topo &amp; GridSpectr.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements Example - Topo &amp; GridSpectr.vi"/>
 				<Item Name="Grid Measurements with VISA connection to user instrument.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/Grid Measurements with VISA connection to user instrument.vi"/>
-				<Item Name="HapticSTM.lvlib" Type="Library" URL="/&lt;userlib&gt;/HapticSTM/HapticSTM.lvlib"/>
 				<Item Name="History Chart 1-Channel.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/History Chart 1-Channel.vi"/>
 				<Item Name="MultiPass - Example-Callback-VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiPass Callback/MultiPass - Example-Callback-VI.vi"/>
 				<Item Name="MultiSegmentSpectroscopy.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/MultiSegmentSpectroscopy.vi"/>
 				<Item Name="Nanonis Prog Interface.lvlib" Type="Library" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Nanonis Prog Interface.lvlib"/>
 				<Item Name="ncAFM Amplitude Calibration.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ncAFM Amplitude Calibration.vi"/>
+				<Item Name="origin.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/origin.vi"/>
+				<Item Name="pd.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/pd.vi"/>
+				<Item Name="pnx.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/pnx.vi"/>
+				<Item Name="pny.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/pny.vi"/>
+				<Item Name="pnz.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/pnz.vi"/>
 				<Item Name="Point Shoot Example - MultipleSpectro.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on Point &amp; Shoot/Point Shoot Example - MultipleSpectro.vi"/>
 				<Item Name="READ ME - External VI.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Experiments on a grid/READ ME - External VI.vi"/>
 				<Item Name="ScanMonitor.PI.Multiple.Generate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ScanMonitor.PI.Multiple.Generate.vi"/>
 				<Item Name="ScanMonitor.PI.Template.vit" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/ScanMonitor.PI.Template.vit"/>
 				<Item Name="Scans at different Bias.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Scans at different Bias.vi"/>
+				<Item Name="shutdown.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/shutdown.vi"/>
+				<Item Name="start.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/start.vi"/>
 				<Item Name="StoreSpecParms.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/StoreSpecParms.vi"/>
 				<Item Name="Switch Mode STM-AFM.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Switch Mode STM-AFM.vi"/>
 				<Item Name="Switch scanners.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Switch scanners.vi"/>
 				<Item Name="Test connection.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Test connection.vi"/>
+				<Item Name="threshhold.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/threshhold.vi"/>
 				<Item Name="Tip Cleaner.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Tip Cleaner.vi"/>
 				<Item Name="Tip Shaper.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Tip Shaper.vi"/>
 				<Item Name="User scan tool box.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/User scan tool box.vi"/>
 				<Item Name="Voltage pulses at various Z.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Voltage pulses at various Z.vi"/>
+				<Item Name="yrescale.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/yrescale.vi"/>
 				<Item Name="Z drift - measure and compensate.vi" Type="VI" URL="/&lt;userlib&gt;/Nanonis Prog Interface V5/Examples/Z drift - measure and compensate.vi"/>
+				<Item Name="zslower.vi" Type="VI" URL="/&lt;userlib&gt;/HapticSTM/VIs/zslower.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -174,7 +194,8 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="FrameString.vi" Type="VI" URL="../SubVIs/FrameString.vi"/>
-			<Item Name="Haptic Programming Interface.dll" Type="Document" URL="../../../Haptic-Programming-Interface/src/x64/Debug/Haptic Programming Interface.dll"/>
+			<Item Name="Haptic Programming Interface.dll" Type="Document" URL="../../../../../../../Program Files/National Instruments/LabVIEW 2021/src/x64/Debug/Haptic Programming Interface.dll"/>
+			<Item Name="Haptic Programming Interface.dll" Type="Document" URL="../2017 Version/Users/freem/Documents/GitHub/HapticSPM/Haptic-Programming-Interface/src/x64/Debug/Haptic Programming Interface.dll"/>
 			<Item Name="Image Draw.vi" Type="VI" URL="../SubVIs/Image Draw.vi"/>
 			<Item Name="Image.vi" Type="VI" URL="../SubVIs/Image.vi"/>
 			<Item Name="PointerPosition.vi" Type="VI" URL="../SubVIs/PointerPosition.vi"/>
