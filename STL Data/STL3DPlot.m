@@ -1,5 +1,5 @@
 % Specify the filename of the STL file
-filename = 'WSe2.stl';
+filename = 'inter1.stl';
 
 % Import the STL file
 model = stlread(filename);

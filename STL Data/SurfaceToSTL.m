@@ -1,6 +1,6 @@
 addpath(append(pwd,'\surf2stl'));
 
-txt_filename = 'WSe2'; % Edit here to create STL from TXT
+txt_filename = 'inter1'; % Edit here to create STL from TXT
 file_folder = 'Outreach';
 %file_folder = 'Test';
 
